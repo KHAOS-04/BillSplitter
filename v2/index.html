@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Bill Splitter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>💜 Bill Splitter</h1>
+        <p class="subtitle">Split your bill easily with your friends!</p>
+
+        <div class="form-box">
+            <p>
+                <label>Total bill (PHP):
+                    <input type="number" id="bill" placeholder="e.g. 1000">
+                </label>
+            </p>
+
+            <p>
+                <label>Number of people:
+                    <input type="number" id="people" placeholder="e.g. 4">
+                </label>
+            </p>
+
+            <p>
+                <label>Tip %:
+                    <input type="number" id="tip" value="10">
+                </label>
+            </p>
+
+            <p>
+                <label>Service charge (PHP):
+                    <input type="number" id="service" value="0">
+                </label>
+            </p>
+
+            <div class="tip-buttons">
+                <p>Quick Tip:</p>
+                <button id="tip10" class="tip-btn" type="button">10%</button>
+                <button id="tip15" class="tip-btn" type="button">15%</button>
+                <button id="tip20" class="tip-btn" type="button">20%</button>
+            </div>
+
+            <button id="calc" class="main-btn" type="button">Split the Bill 💜</button>
+
+            <p id="result"></p>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

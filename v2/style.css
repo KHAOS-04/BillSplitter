@@ -1,0 +1,129 @@
+/* Simple CSS for the Bill Splitter
+   I kept the design clean, soft, and student-friendly. */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 30px 15px;
+    font-family: Arial, sans-serif;
+    background-color: #fbf9fd;
+    color: #4d4652;
+}
+
+.container {
+    width: 90%;
+    max-width: 460px;
+    margin: 30px auto;
+}
+
+h1 {
+    margin-bottom: 5px;
+    text-align: center;
+    color: #76528f;
+    font-size: 30px;
+}
+
+.subtitle {
+    margin-top: 0;
+    margin-bottom: 25px;
+    text-align: center;
+    color: #817987;
+    font-size: 14px;
+}
+
+.form-box {
+    background-color: #ffffff;
+    padding: 25px;
+    border: 1px solid #e5dbea;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(80, 60, 90, 0.08);
+}
+
+.form-box p {
+    margin: 0 0 17px;
+}
+
+label {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    color: #5b5062;
+}
+
+input {
+    width: 100%;
+    margin-top: 7px;
+    padding: 10px;
+    border: 1px solid #d6cadc;
+    border-radius: 7px;
+    background-color: #fff;
+    color: #4d4652;
+    font-size: 14px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #a27ab9;
+}
+
+.tip-buttons {
+    margin: 22px 0 18px;
+    text-align: center;
+}
+
+.tip-buttons p {
+    margin-bottom: 8px;
+    color: #665b6d;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+button {
+    padding: 9px 16px;
+    margin: 3px;
+    border: 1px solid #d7c6e1;
+    border-radius: 7px;
+    background-color: #f3ecf7;
+    color: #68457d;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e9dcf0;
+}
+
+.main-btn {
+    width: 100%;
+    margin: 5px 0 0;
+    padding: 11px;
+    border: none;
+    background-color: #8860a3;
+    color: white;
+    font-weight: bold;
+}
+
+.main-btn:hover {
+    background-color: #76518e;
+}
+
+#result {
+    min-height: 25px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    padding: 14px;
+    border-radius: 8px;
+    background-color: #f8f3fa;
+    color: #5b5062;
+    text-align: center;
+    line-height: 1.6;
+    font-size: 14px;
+}
+
+#result strong {
+    color: #70468a;
+    font-size: 17px;
+}
