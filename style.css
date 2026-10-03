@@ -1,0 +1,113 @@
+/* Simple cozy white and purple design */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #faf7ff;
+    color: #4b3b5a;
+}
+
+.container {
+    width: 90%;
+    max-width: 500px;
+    margin: 50px auto;
+}
+
+.form-box {
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    border: 2px solid #eadcff;
+    box-shadow: 0 8px 20px rgba(120, 80, 160, 0.12);
+}
+
+h1 {
+    text-align: center;
+    color: #8d5bb5;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #8d8295;
+    margin-bottom: 25px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    margin-top: 7px;
+    padding: 11px;
+    border: 1px solid #d9c8e8;
+    border-radius: 10px;
+    font-size: 15px;
+    outline: none;
+}
+
+input:focus {
+    border-color: #a875cc;
+}
+
+.tip-buttons {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.tip-buttons p {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+button {
+    border: none;
+    border-radius: 10px;
+    padding: 10px 15px;
+    margin: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.tip-btn {
+    background: #eee2fa;
+    color: #75459b;
+}
+
+.tip-btn:hover {
+    background: #dfc9f2;
+}
+
+.main-btn {
+    width: 100%;
+    margin-top: 10px;
+    background: #9b68c2;
+    color: white;
+    font-weight: bold;
+    padding: 13px;
+}
+
+.main-btn:hover {
+    background: #8552ad;
+}
+
+#result {
+    margin-top: 25px;
+    padding: 18px;
+    background: #f6effd;
+    border-radius: 12px;
+    text-align: center;
+    line-height: 1.7;
+    min-height: 25px;
+}
+
+#result strong {
+    color: #7746a0;
+    font-size: 18px;
+}
