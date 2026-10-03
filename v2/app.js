@@ -11,10 +11,10 @@ const result = document.querySelector("#result");
 
 // Thank-you messages for Task 2.
 const messages = [
-    "Thank you for using Bill Splitter! 💜",
-    "Hope you had a nice meal! ✨",
+    "Thank you for using Bill Splitter!",
     "Thanks for splitting the bill with us! 🌷",
-    "Have a lovely day! 💜"
+    "Gin tunan ko gid ni sir\n-Kia",
+    "Have a great day! 😊",
 ];
 
 // This function does the bill calculation.
